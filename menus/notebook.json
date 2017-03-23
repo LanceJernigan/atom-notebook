@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Save Notebook",
+        "command": "notebook:save"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "notebook",
+          "submenu": [
+            {
+              "label": "Save",
+              "command": "notebook:save"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "notebook",
+  "main": "./lib/notebook",
+  "version": "0.0.0",
+  "description": "A notebook for quickly storing notes",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "notebook:save"
+  },
+  "repository": "https://github.com/lancejernigan/atom-notebook",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
